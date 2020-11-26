@@ -25,7 +25,6 @@ const findKeyByValue = (obj, val) => {
   })
   .filter(x => x);
   return result.length < 1 ? undefined : result.join('');
-  // .join('');
 };
 
 console.log(findKeyByValue(bestTVShowsByGenre, "The Expanse"));
