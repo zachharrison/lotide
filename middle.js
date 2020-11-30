@@ -8,4 +8,5 @@ const middle = arr => {
   }
 };
 
+
 module.exports = middle;
