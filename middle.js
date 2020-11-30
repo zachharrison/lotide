@@ -1,12 +1,3 @@
-const eqArrays = (arr1, arr2) => arr1.every((x, i) => x === arr2[i]);
-
-
-const assertArraysEqual = function(arr1, arr2) {
-  eqArrays(arr1, arr2) ? 
-  console.log('✅ The given arrays are identical') : 
-  console.log('❌ The given arrays are not identical');
-};
-
 const middle = arr => {
   if(arr.length < 3){
     return [];
@@ -17,8 +8,4 @@ const middle = arr => {
   }
 };
 
-console.log(assertArraysEqual(middle([1, 2, 3, 4, 5]), [3])) // [3]
-console.log(assertArraysEqual(middle([1, 2, 3]), [2])) // [2]
-console.log(assertArraysEqual(middle([1, 2]), [])) // []
-console.log(assertArraysEqual(middle([1, 2, 3, 4]), [2, 3])) // [2, 3]
-console.log(assertArraysEqual(middle([1, 2, 3, 4, 5, 6]), [3, 4])) // [3, 4]
+module.exports = middle;
