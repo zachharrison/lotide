@@ -1,9 +1,6 @@
 const head = require('./head');
 const tail = require('./tail');
 const eqArrays = require('./eqArrays');
-const assertArraysEqual = require('./assertArraysEqual');
-const assertEqual = require('./assertEqual');
-const assertObjectsEqual = require('./assertObjectsEqual');
 const countLetters = require('./countLetters');
 const eqObjects = require('./eqObjects');
 const findKey = require('./findKey');
@@ -19,9 +16,6 @@ module.exports = {
   head,
   tail,
   eqArrays,
-  assertArraysEqual,
-  assertEqual,
-  assertObjectsEqual,
   countLetters,
   eqObjects,
   findKey,
@@ -33,3 +27,5 @@ module.exports = {
   takeUntil, 
   without
 };
+
+
